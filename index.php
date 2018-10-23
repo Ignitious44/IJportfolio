@@ -27,13 +27,13 @@
         <p>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends from Unisplash</p>
     </div>
     <div class='cover'>
-        <button type="button" class="btn btn-secondary btn-lg">Find Out More</button>
+        <button type="button" class="btn btn-secondary btn-lg">What We Offer</button>
     </div>
 </section>
 
 <section class="section3">
     <div class="container-fluid">
-        <h6>SERVICES<h6>    
+        <h5>SERVICES<h5>    
         <h2>What We Offer</h2>
     </div>
     <div class="container">
@@ -67,6 +67,96 @@
                 <p>I ask you a question...</p>      
             </article>
         </div>
+    </div>
+</section>
+
+<section class="section4">
+    <div class="container-fluid">
+        <h1>Welcome to <i>your</i></h1>
+        <h1>next website!</h1>
+    </div>
+    <div class='cover'>
+        <button type="button" class="btn btn-primary btn-lg">Download Now!</button>
+    </div>
+</section>
+
+<section class="section5">
+    <div class="container-fluid">
+        <h5>PORTFOLIO<h5>    
+        <h2>Recent Projects</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 stationary">
+                <div class='text'>
+                    <h6>STATIONARY</h6>
+                    <p>A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                </div>
+            </div>
+            <div class="col-6 icecream">
+                <div class='text'>
+                    <h6>ICE CREAM</h6>
+                    <p>A dark blue background, with a colored pencil, a clip and a tiny ice creame cone!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-6 strawberries">
+                <div class='text'>
+                    <h6>STRAWBERRIES</h6>
+                    <p>Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                </div>
+            </div>
+            <div class="col-6 workspace">
+                <div class='text'>
+                    <h6>WORKSPACE</h6>
+                    <p>A yellow workspace with some scissors, pencils and other objects!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section6">
+    <div class="container-fluid">
+        <h3>The buttons below are impossible to resist...</h3>
+    </div>
+
+    <div class='cover'>
+        <button type="button" class="btn btn-secondary btn-lg btn-light">Click Me!</button>
+    </div>
+    <div class='cover'>
+        <button type="button" class="btn btn-secondary btn-lg">Look At Me!</button>
+    </div>
+</section>
+
+<section class="section7">
+        <iframe id='googleMap' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.6835843720319!2d5.287432916334547!3d59.40499138168546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463b9fb67dd3c263%3A0x1d3d469aaa7e939a!2sOdins+gate+1%2C+5531+Haugesund%2C+Norway!5e0!3m2!1sen!2slt!4v1540283193931" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+<section class="section8">
+    <div class="container">
+        <div class="row">
+            <article class='col-md-4'>
+                <div class='icon'>    
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </article>
+            <article class='col-md-4'>
+                <div class='icon'>    
+                    <i class="fab fa-instagram"></i>
+                </div>   
+            </article>
+            <article class='col-md-4'>
+                <div class='icon'>    
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="container-fluid">
+            <p>Copyright <i class="far fa-copyright"></i> Your Website 2018</p>
     </div>
 </section>
 
