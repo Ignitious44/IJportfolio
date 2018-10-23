@@ -101,10 +101,6 @@ article p {
     background-color: #FFF;
 }
 
-.row {
-    height: 40vh;
-}
-
 .col-6 {
     align-items: flex-end;
 }

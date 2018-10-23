@@ -32,11 +32,10 @@
 </section>
 
 <section class="section3">
-    <div class="container-fluid">
+    <div class="container text-center">
         <h5>SERVICES<h5>    
         <h2>What We Offer</h2>
-    </div>
-    <div class="container">
+
         <div class="row">
             <article class='col-md-3'>
                 <div class='icon'>    
@@ -99,9 +98,6 @@
                     <p>A dark blue background, with a colored pencil, a clip and a tiny ice creame cone!</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row ">
             <div class="col-6 strawberries">
                 <div class='text'>
                     <h6>STRAWBERRIES</h6>
