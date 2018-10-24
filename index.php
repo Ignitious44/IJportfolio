@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IJ portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="Ignas Jurevicius">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="Ignas Jurevicius">
     <link rel="stylesheet" href="bootstrap.css">
@@ -155,6 +155,42 @@
             <p>Copyright <i class="far fa-copyright"></i> Your Website 2018</p>
     </div>
 </section>
+
+<div class="sidenav">
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class='hamb'>
+    <div class="open">
+    &#9776;
+    </div>
+    <div class="close">
+    &times;
+    </div>
+</div>
+
+<script>
+    var hamburgerEl = document.querySelector('.hamb');
+    var menuEl = document.querySelector('.sidenav');
+
+    hamburgerEl.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        var currentHamburger = e.currentTarget;
+
+        if(menuEl.classList.contains('active')) { //open
+            currentHamburger.classList.remove('inactive');
+            menuEl.classList.remove('active');
+        } else { //closed
+            currentHamburger.classList.add('inactive');
+            menuEl.classList.add('active');
+        }
+    });
+
+</script>
 
 </body>
 </html>
